@@ -1,0 +1,10 @@
+# 自動判定
+* text=auto
+
+# 明示的にLF指定
+*.js text eol=lf
+*.sh text eol=lf
+
+# バイナリ（差分不要）
+*.png binary
+*.jpg binary
